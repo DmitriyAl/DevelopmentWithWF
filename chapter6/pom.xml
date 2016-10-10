@@ -2,19 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>DevelopmentWithWF</artifactId>
+        <groupId>io.albot.javaee7</groupId>
+        <version>1.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.albot.javaee7</groupId>
-    <artifactId>DevelopmentWithWF</artifactId>
-    <version>1.0</version>
-    <modules>
-        <module>chapter3</module>
-        <module>chapter4</module>
-        <module>chapter4/ticket-agency-cdi</module>
-        <module>chapter5</module>
-        <module>chapter6</module>
-        <module>chapter7</module>
-    </modules>
+    <artifactId>chapter6</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>ticket-agency-jms</module>
+    </modules>
+
 
 </project>
